@@ -38,6 +38,20 @@ domain: addisonhernandez.github.io
 # masthead_title: # overrides the website title displayed in the masthead, use " " for no title
 words_per_minute: 200
 
+# Default settings
+defaults:
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      # author_profile: true
+      read_time: true
+      # comments: true
+      # share: true
+      related: true
+
 # Site Author
 author:
   name: "Addison Hernandez"
