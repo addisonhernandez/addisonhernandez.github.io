@@ -32,8 +32,7 @@ twitter_username: theAddison
 github_username:  addisonhernandez
 
 # Build settings
-# theme: minima
-theme: midnight
+theme: minima
 plugins:
   - jekyll-feed
 
