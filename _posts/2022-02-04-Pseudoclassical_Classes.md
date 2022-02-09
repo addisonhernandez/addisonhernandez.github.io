@@ -2,7 +2,19 @@
 title: "Pseudoclassical Classes"
 date: 2022-02-04
 category: notes
-tags: Notes JavaScript Prototypes Inheritance Classes OOP
+tags:
+  - Notes
+  - JavaScript
+  - Prototypes
+  - Inheritance
+  - Classes
+  - OOP
+excerpt: "How to teach an old function object a new trick"
+tagline: "Refactoring function objects with a 'new' class pattern"
+header:
+  teaser: "/assets/images/john-towner-3Kv48NS4WUU-unsplash.jpg"
+  overlay_image: "/assets/images/john-towner-3Kv48NS4WUU-unsplash.jpg"
+  overlay_filter: 0.5
 ---
 
 Using this prototypal class structure:
