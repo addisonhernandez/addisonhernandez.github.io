@@ -43,12 +43,12 @@ Car.prototype.move = function () { this.loc++; };
 
 This establishes a prototype chain (`.extend` replaced with `.create`) and assigns `loc` directly. Each instance of Car now has access to properties and methods of the parent class, Car, without having to copy them individually at instatiation.
 
-# More about `prototype`
+# Note about using the term `prototype`
 
-If someone says "`obj1`'s prototype is `obj2`" a reasonable interpretation would be to think that failed lookups on `obj1` would fall through to `obj2`. This is true for *instances* created from a prototypal class. This interpretation is **not true** of the relationship the class itself has to the prototype.
+If someone says "`obj1`'s prototype is `obj2`," a reasonable interpretation would be to think that failed lookups on `obj1` would fall through to `obj2`. This is true if `obj1` is an *instance* created from a prototypal `obj2` class. This interpretation is **not true** of the relationship the class itself has to the prototype.
 
 A class is declared using a function object, and failed property lookups on it will fall through to `Fuction.prototype`! In the example above, Car is a function object, and it's prototype is `Function.prototype`.
 
 *And yet*, when `Car` runs, it will create objects that delegate failed lookups to `Car.prototype`. In that sense, you might say that Car's prototype is `Car.prototype`. The nomenclature is confusing and ambiguous.
 
-Saying that an instance prototype is `obj.prototype` means something different from saying that a class prototype is `obj.prototype`, yet both can be true statements.
+Saying that an instance prototype is `obj.prototype` means something different from saying that a class prototype is `obj.prototype`, yet both can be true statements!
