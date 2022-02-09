@@ -17,9 +17,13 @@ Further reading on MDN: [Introduction to the Dom](https://developer.mozilla.org/
 
 # What is the DOM?
 
-The **Document Object Model** is an API (Application Programming Interface). An API is a means for programs to interact with each other.
+The **Document Object Model** is an API. An API is a means for programs to interact with each other.
+
+*[API]: Application Programming Interface
 
 The browser's DOM API allows other programs to interact with the **document**.
+
+<br>
 
 # What is a Document?
 
@@ -29,10 +33,14 @@ The document can be modeled in a number of ways:
  - Textually via HTML (how a dev might see the page)
  - Visually via the browser window (how a user will see the page)
  - Digitally via the DOM (how a script sees the page)
+ 
+<br>
 
 # How the DOM models the document
 
 As a tree. The data structure has a root node with branches leading to child nodes (which may, in turn, have branches).
+
+<br>
 
 # Fundamental DOM Data Types
 
@@ -44,7 +52,8 @@ As a tree. The data structure has a root node with branches leading to child nod
 | NodeList | A collection of elements. Items in a `nodeList` can be accessed in two ways: {::nomarkdown}<table><tr><td>list.item(index)</td><td>(returns `null` if index is out of bounds)</td></tr><tr><td>list\[index]</td><td>(returns `undefined` if index is out of bounds)</td></tr></table>{:/} NodeLists can be _live_ or _static_. Live nodelists are updated automatically with the DOM. Static nodelists are not modified automatically after creation. |
 | Attr | An object reference that exposes a special interface for element attributes. Attributes are nodes in the DOM, just like Elements, but they are rarely used as such. |
 | NamedNodeMap | Despite being named *node*map, `NamedNodeMap` is a live collection of `Attr` objects. Objects in a `NamedNodeMap` are not in any particular order (unlike `NodeList`), but the objects can be accessed by name or enumerated by index. |
-|
+
+<br>
 
 # DOM Interfaces
 
