@@ -10,13 +10,8 @@ tags: Notes JavaScript this
 
 When a *method* or a *constructor* is invoked, the JavaScript interpreter binds `this` to a **likely-focal object**.
 
-<hr>
-
-**⚠ Warning ⚠**
-
-Resources on the internet regarding `this` are often inconsistent, and frequently misrepresent the truth.
-
-<hr>
+**⚠ Warning ⚠**<br />Resources on the internet regarding `this` are often inconsistent, and frequently misrepresent the truth.
+{: .notice--warning}
 
 # What `this` isn't
 
