@@ -3,7 +3,17 @@ layout: single
 title: "JavaScript Keyword: this"
 date: 2022-02-02
 category: notes
-tags: Notes JavaScript this
+tags: 
+  - Notes
+  - JavaScript
+  - this
+excerpt: "Truths, misconceptions, and likely-focal objects"
+tagline: "Truths, misconceptions, and likely-focal objects"
+header:
+  teaser: "/assets/images/zachary-keimig-VW2UGDpbN94-unsplash.jpg"
+  overlay_image: "/assets/images/zachary-keimig-VW2UGDpbN94-unsplash.jpg"
+  overlay_filter: 0.5
+  show_overlay_excerpt: true
 ---
 
 `this` is an identifier for values that is designed to support object oriented programming.

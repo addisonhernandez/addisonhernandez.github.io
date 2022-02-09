@@ -2,7 +2,19 @@
 layout: single
 title: "DOM Manipulation"
 date: 2022-02-01
-categories: notes
+category: notes
+tags:
+  - DOM
+  - API
+  - Data Structures
+  - OOP
+excerpt: "The DOM, the document, and how to interact with it"
+tagline: "All about the DOM, and how to use it"
+header:
+  teaser: "/assets/images/faye-cornish-Uq3gTiPlqRo-unsplash.jpg"
+  overlay_image: "/assets/images/faye-cornish-Uq3gTiPlqRo-unsplash.jpg"
+  overlay_filter: 0.5
+  show_overlay_excerpt: true
 ---
 
 Objectives:
