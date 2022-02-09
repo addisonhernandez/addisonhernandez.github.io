@@ -11,7 +11,7 @@ When we want to have two objects that have all the same properties, the naive ap
 
 # How to Create Prototype Chains
 
-The `Object.create(proto [, propertiesObject])` static method will make a prototype chain for us.
+The [`Object.create(proto [, propertiesObject])`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/create) static method will make a prototype chain for us.
 
 An important benefit of this method is that failed property lookups are delegated at lookup-time, whereas a one-time property copy utility function will only clone properties at copy-time. Any new properties added to the prototype object will be accessible via fall-through by objects created with `Object.create`.
 
