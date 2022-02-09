@@ -29,11 +29,11 @@ var fn = function (a, b) {
 {% endhighlight %}
 
 `this` ***is not*** bound to:
-- the function object `this` appears in
-- an instance of the function `this` appears in
-- an object that has the function `this` appears in as a property (method)
-- an object literal that has the function `this` appears in
-- an execution context or scope of the function call
+- the function object in which `this` appears
+- an instance of the function in which `this` appears
+- an object that has the function in which `this` appears as a property (method)
+- an object literal that has the function in which `this` appears
+- an execution context or scope of the function call in which `this` appears
 
 `this` ***is*** bound to:
 - the object to the left of the dot where the containing function is called.
