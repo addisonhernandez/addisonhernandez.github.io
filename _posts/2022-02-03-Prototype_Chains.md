@@ -9,6 +9,8 @@ tags: Notes JavaScript Prototypes Inheritance OOP
 
 When we want to have two objects that have all the same properties, the naive approach would be to copy all properties of one object into the other. Using prototype chains, on the other hand, makes one object behave as though it has all the properties of another by delegating failed property lookups to the other object at lookup time.
 
+<br>
+
 # How to Create Prototype Chains
 
 The [`Object.create(proto [, propertiesObject])`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/create) static method will make a prototype chain for us.
@@ -41,7 +43,9 @@ var Car = function (loc) {
 Car.prototype.move = function () { this.loc++; };
 ```
 
-This establishes a prototype chain (`.extend` replaced with `.create`) and assigns `loc` directly. Each instance of Car now has access to properties and methods of the parent class, Car, without having to copy them individually at instatiation.
+This establishes a prototype chain (`_.extend` replaced with `Object.create`) and assigns `loc` directly. Each instance of Car now has access to properties and methods of the parent class, Car, without having to copy them individually at instantiation.
+
+<br>
 
 # Note about using the term `prototype`
 
