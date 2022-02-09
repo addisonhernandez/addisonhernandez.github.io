@@ -40,7 +40,7 @@ var fn = function (a, b) {
 
 For example:
 
-{% highlight javascript %}
+{% highlight javascript linenos %}
 var obj = {
   fn: function (a, b) {
     console.log(this);
@@ -50,7 +50,7 @@ var obj = {
 obj.fn(3, 4);
 {% endhighlight %}
 
-In the statement `obj.fn(3, 4)`, since `obj` is to the left of the dot, `this` is bound to `obj`.
+In the statement `obj.fn(3, 4)` on line 7, since `obj` is to the left of the dot, `this` is bound to `obj`.
 
 The operative determiner of which object `this` refers to depends only on the function invocation, and not with that function's membership as a property of any other objects.
 
