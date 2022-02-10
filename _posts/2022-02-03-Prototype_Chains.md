@@ -11,8 +11,8 @@ tags:
 excerpt: "Taking the first steps toward inheritance"
 tagline: "How to make objects that resemble other objects"
 header:
-  teaser: "/assets/images/patrick-tomasso-5hvn-2WW6rY-unsplash.jpg"
-  overlay_image: "/assets/images/patrick-tomasso-5hvn-2WW6rY-unsplash.jpg"
+  teaser: "/assets/images/jj-ying-PDxYfXVlK2M-unsplash-small.jpg"
+  overlay_image: "/assets/images/jj-ying-PDxYfXVlK2M-unsplash.jpg"
   overlay_filter: 0.5
 ---
 

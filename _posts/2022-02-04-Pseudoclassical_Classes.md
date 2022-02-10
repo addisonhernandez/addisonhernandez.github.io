@@ -12,8 +12,8 @@ tags:
 excerpt: "How to teach an old function object a 'new' trick"
 tagline: "Refactoring function objects with a 'new' class pattern"
 header:
-  teaser: "/assets/images/john-towner-3Kv48NS4WUU-unsplash.jpg"
-  overlay_image: "/assets/images/john-towner-3Kv48NS4WUU-unsplash.jpg"
+  teaser: "/assets/images/patrick-tomasso-5hvn-2WW6rY-unsplash-small.jpg"
+  overlay_image: "/assets/images/patrick-tomasso-5hvn-2WW6rY-unsplash.jpg"
   overlay_filter: 0.5
 ---
 
