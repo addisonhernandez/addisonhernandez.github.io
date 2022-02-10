@@ -44,9 +44,6 @@ defaults:
       # share: true
       related: true
 
-header:
-  image_overlay: 0.5
-
 footer:
   links:
     # - label: "License"
