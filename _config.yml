@@ -1,13 +1,5 @@
 # Welcome to Jekyll!
 #
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely edit after that. If you find
-# yourself editing this file very often, consider using Jekyll's data files
-# feature for the data you need to update frequently.
-#
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
-#
 # If you need help with YAML syntax, here are some quick references for you:
 # https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
 # https://learnxinyminutes.com/docs/yaml/
@@ -19,7 +11,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: This Day in Tech
+title: On This Day in Tech
 title_separator: "-"
 name: "Addison Hernandez"
 email: addison.hernandez@gmail.com
@@ -33,10 +25,10 @@ description: >- # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: https://addisonhernandez.github.io
 domain: addisonhernandez.github.io
-teaser: "/assets/images/patrick-tomasso-5hvn-2WW6rY-unsplash.jpg" # path of fallback teaser image, e.g. "/assets/images/500x300.png"
+teaser: "/assets/images/patrick-tomasso-5hvn-2WW6rY-unsplash.jpg" # path of fallback teaser image
 # logo: # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
-masthead_title: On This Day in Tech # overrides the website title displayed in the masthead, use " " for no title
-words_per_minute: 200
+# masthead_title: On This Day in Tech # overrides the website title displayed in the masthead, use " " for no title
+words_per_minute: 150
 
 # Default settings
 defaults:
