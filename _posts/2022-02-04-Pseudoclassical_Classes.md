@@ -9,7 +9,7 @@ tags:
   - Inheritance
   - Classes
   - OOP
-excerpt: "How to teach an old function object a new trick"
+excerpt: "How to teach an old function object a 'new' trick"
 tagline: "Refactoring function objects with a 'new' class pattern"
 header:
   teaser: "/assets/images/john-towner-3Kv48NS4WUU-unsplash.jpg"

@@ -8,7 +8,7 @@ tags:
   - Prototypes
   - Inheritance
   - OOP
-teaser: "Taking the first steps toward inheritance"
+excerpt: "Taking the first steps toward inheritance"
 tagline: "How to make objects that resemble other objects"
 header:
   teaser: "/assets/images/patrick-tomasso-5hvn-2WW6rY-unsplash.jpg"
