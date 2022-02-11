@@ -11,8 +11,8 @@ tags:
 excerpt: "The DOM, the document, and how to interact with it"
 tagline: "All about the DOM, and how to use it"
 header:
-  teaser: "/assets/images/faye-cornish-Uq3gTiPlqRo-unsplash.jpg"
-  overlay_image: "/assets/images/faye-cornish-Uq3gTiPlqRo-unsplash.jpg"
+  teaser: "/assets/images/faye-cornish-Uq3gTiPlqRo-unsplash-crop.jpg"
+  overlay_image: "/assets/images/faye-cornish-Uq3gTiPlqRo-unsplash-crop.jpg"
   overlay_filter: 0.5
   show_overlay_excerpt: true
 ---
@@ -45,7 +45,7 @@ The document can be modeled in a number of ways:
  - Textually via HTML (how a dev might see the page)
  - Visually via the browser window (how a user will see the page)
  - Digitally via the DOM (how a script sees the page)
- 
+
 <br>
 
 # How the DOM models the document
