@@ -5,7 +5,7 @@ entries_layout: grid
 # author_profile: true
 title: On This Day in Tech
 header:
-  overlay_image: "/assets/images/faye-cornish-ywRNdDfvMWs-unsplash.jpg"
+  overlay_image: "/assets/images/alexandre-debieve-FO7JIlwjOtU-unsplash.jpg"
   overlay_filter: "0.5"
 #   actions:
 #     - label: "Download"
