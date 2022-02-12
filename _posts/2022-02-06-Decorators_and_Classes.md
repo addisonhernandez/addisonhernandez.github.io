@@ -8,8 +8,8 @@ tags:
   - Decorators
   - Classes
   - OOP
-excerpt: ""
-tagline: ""
+excerpt: "A first foray into object-oriented JavaScript"
+tagline: "A first foray into object-oriented JavaScript"
 header:
   teaser: "/assets/images/tania-miron-1t4ZtSfNtTc-unsplash-small.jpg"
   overlay_image: "/assets/images/tania-miron-1t4ZtSfNtTc-unsplash.jpg"
