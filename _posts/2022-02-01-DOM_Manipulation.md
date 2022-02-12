@@ -11,8 +11,8 @@ tags:
 excerpt: "The DOM, the document, and how to interact with it"
 tagline: "All about the DOM, and how to use it"
 header:
-  teaser: "/assets/images/faye-cornish-Uq3gTiPlqRo-unsplash-crop.jpg"
-  overlay_image: "/assets/images/faye-cornish-Uq3gTiPlqRo-unsplash-crop.jpg"
+  teaser: "/assets/images/hu-chen-60XLoOgwkfA-unsplash-small.jpg"
+  overlay_image: "/assets/images/hu-chen-60XLoOgwkfA-unsplash.jpg"
   overlay_filter: 0.5
   show_overlay_excerpt: true
 ---
