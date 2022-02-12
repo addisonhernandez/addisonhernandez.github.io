@@ -46,14 +46,14 @@ An ugly interface has to be memorized, but a beautiful design can be understood.
 ## Snapshots
 
 Git models the history of a collection of files and folders as a series of snapshots.
-In Git parlance, a file is called a *blob*.
+In Git parlance, a file is called a ***blob***.
 
 Try this out! <br>
 You can have Git tell you the object type of any object in Git, given its SHA-1 key. <br>
 `git cat-file -t [SHA-1 key]`
 {: .notice}
 
-Directories are called *trees*, and they map names to blobs or trees, since a directory can house both files and directories.
+Directories are called ***trees***, and they map names to blobs or trees, since a directory can house both files and directories.
 
 A snapshot is the state of the top-level tree that is being version controlled.
 An example tree might look like:
@@ -70,11 +70,13 @@ An example tree might look like:
 
 ## Modeling a History: Relating Snapshots
 
-Rather than implement a linear history of snapshots, Git uses a Directed Acyclic Graph (DAG).
+*[DAG]: Directed Acyclic Graph
+
+Rather than implement a linear history of snapshots, Git uses a DAG.
 Each snapshot in Git refers to a set of 'parents', the snapshots that preceded it.
 A set of parents is used instead of a single parent (as it would be in a linear history) because a snapshot may descend from multiple parents, as would be the case when merging branches of parallel development.
 
-Git calls these snapshots *commits*. Visualizing a commit history could look something like this:
+Git calls these snapshots ***commits***. Visualizing a commit history could look something like this:
 
 ```plaintext
 o <-- o <-- o <-- o
@@ -96,8 +98,13 @@ o <-- o <-- o <-- o <---- o
               --- o <-- o
 ```
 
-Git commits are immutable.
+### Git Commits are Immutable
+
+Commits, as well as objects in general, are immutable in Git.
 A history of commits can still be edited, but those edits take the form of new commits that replace the old ones.
+
+This is a topic of some contention, on which I am still undecided.
+You can effectively "rewrite history" with certain git commands.
 
 ## The Git Model in Pseudocode
 
@@ -149,3 +156,46 @@ Rather, they can use the data store to refer to another object by it's SHA-1 has
 
 ## References
 
+All of our snapshots can be identified by their SHA-1 hashes.
+That's convenient if you are a computer capable of calculating and remembering 40-character strings of hexadecimal digits.
+Not so much if you're a mere mortal.
+
+Git uses a system of human-readable names for hashes, called ***references***.
+References are pointers to commits.
+Unlike objects (which we know are immutable), references can be updated to point to a new commit.
+For example, the `main` (or `master` in legacy repositories) reference usually points to the latest commit in the main branch of development.
+
+Updating our pseudocode to include this reference functionality:
+
+```plaintext
+// a reference maps a name ~> id (hash)
+references = map<string ~> string>
+
+fn update_reference(name, id):
+  references[name] = id
+
+fn read_reference(name):
+  return references[name]
+
+fn load_reference(name | id):
+  if name in references:
+    return load(references[name])
+  else:
+    return load(id)
+```
+
+This notion of mutable references allows us to have an additional picture of where we currently are in the tracked history.
+This "where we currently are" reference is a special reference called **HEAD**.
+
+## Repositories
+
+The final piece of the data model puzzle!
+A **repository** is the collection of data store objects and references.
+Seems like a bit of an anti-climax, but that's the whole point of the Git data model.
+The beauty is in the simplicity of the abstraction.
+
+On disk, Git just stores objects and references.
+Command line `git` commands are means to manipulate the DAG of commits by doing things like adding objects and adding or updating references.
+
+The whole point of understanding Git's data model is to understand, when typing any `git` command, how Git is changing the underlying graph data structure.
+Conversely, if you're trying to accomplish a specific task, there's probably a git command to achieve it.
