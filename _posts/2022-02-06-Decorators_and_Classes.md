@@ -18,7 +18,7 @@ header:
 
 # Decorators
 
-A *Decorator* is a funciton that accepts an object and augments it with some extra properties or functionality
+A *Decorator* is a function that accepts an object and augments it with some extra properties or functionality
 
 This is nonstandard nomenclature!
 To complicate the issue further, there is currently a Stage 2 [proposal](https://github.com/tc39/ecma262/pull/2417) to add Class and Class Element Decorators to ECMAScript.
