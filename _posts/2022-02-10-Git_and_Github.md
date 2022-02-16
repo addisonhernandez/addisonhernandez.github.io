@@ -13,7 +13,7 @@ tagline:
 header:
   teaser: "/assets/images/Git-Logo-White.png"
   overlay_image: "/assets/images/Git-Logo-White.png"
-  overlay_filter: 0.5
+  overlay_filter: linear-gradient(90deg, rgba(0, 0, 0, 0.75) 33%, rgba(0, 0, 0, 0.5))
 ---
 
 *[VCS]: Version Control System

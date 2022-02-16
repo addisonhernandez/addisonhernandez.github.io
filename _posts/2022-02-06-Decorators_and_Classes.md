@@ -13,7 +13,7 @@ tagline: "A first foray into object-oriented JavaScript"
 header:
   teaser: "/assets/images/tania-miron-1t4ZtSfNtTc-unsplash-small.jpg"
   overlay_image: "/assets/images/tania-miron-1t4ZtSfNtTc-unsplash.jpg"
-  overlay_filter: 0.5
+  overlay_filter: linear-gradient(90deg, rgba(0, 0, 0, 0.75) 33%, rgba(0, 0, 0, 0.5))
 ---
 
 # Decorators

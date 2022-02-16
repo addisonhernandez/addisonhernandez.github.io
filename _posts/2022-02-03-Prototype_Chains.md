@@ -13,7 +13,7 @@ tagline: "How to make objects that resemble other objects"
 header:
   teaser: "/assets/images/jj-ying-PDxYfXVlK2M-unsplash-small.jpg"
   overlay_image: "/assets/images/jj-ying-PDxYfXVlK2M-unsplash.jpg"
-  overlay_filter: 0.5
+  overlay_filter: linear-gradient(90deg, rgba(0, 0, 0, 0.75) 33%, rgba(0, 0, 0, 0.5))
 ---
 
 **Prototype Chains are a mechanism for making objects that resemble other objects.**

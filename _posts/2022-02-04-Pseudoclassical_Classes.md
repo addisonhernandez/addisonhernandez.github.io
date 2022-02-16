@@ -14,7 +14,7 @@ tagline: "Refactoring function objects with a 'new' class pattern"
 header:
   teaser: "/assets/images/stefany-andrade-GbSCAAsU2Fo-unsplash-small.jpg"
   overlay_image: "/assets/images/stefany-andrade-GbSCAAsU2Fo-unsplash.jpg"
-  overlay_filter: 0.5
+  overlay_filter: linear-gradient(90deg, rgba(0, 0, 0, 0.75) 33%, rgba(0, 0, 0, 0.5))
 ---
 
 Using this prototypal class structure:

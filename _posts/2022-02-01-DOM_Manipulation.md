@@ -13,7 +13,7 @@ tagline: "All about the DOM, and how to use it"
 header:
   teaser: "/assets/images/hu-chen-60XLoOgwkfA-unsplash-small.jpg"
   overlay_image: "/assets/images/hu-chen-60XLoOgwkfA-unsplash.jpg"
-  overlay_filter: linear-gradient(90deg, rgba(0, 0, 0, 0.75) 50%, rgba(0, 0, 0, 0.25))
+  overlay_filter: linear-gradient(90deg, rgba(0, 0, 0, 0.75) 33%, rgba(0, 0, 0, 0.5))
   show_overlay_excerpt: true
 ---
 

@@ -12,7 +12,7 @@ tagline: "Truths, misconceptions, and likely-focal objects"
 header:
   teaser: "/assets/images/zachary-keimig-VW2UGDpbN94-unsplash-crop.jpg"
   overlay_image: "/assets/images/zachary-keimig-VW2UGDpbN94-unsplash-crop.jpg"
-  overlay_filter: 0.5
+  overlay_filter: linear-gradient(90deg, rgba(0, 0, 0, 0.75) 33%, rgba(0, 0, 0, 0.5))
   show_overlay_excerpt: true
 ---
 
