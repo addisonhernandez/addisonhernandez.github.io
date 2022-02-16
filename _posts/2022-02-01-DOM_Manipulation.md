@@ -13,7 +13,7 @@ tagline: "All about the DOM, and how to use it"
 header:
   teaser: "/assets/images/hu-chen-60XLoOgwkfA-unsplash-small.jpg"
   overlay_image: "/assets/images/hu-chen-60XLoOgwkfA-unsplash.jpg"
-  overlay_filter: 0.5
+  overlay_filter: linear-gradient(90deg, rgba(0, 0, 0, 0.75) 50%, rgba(0, 0, 0, 0.25))
   show_overlay_excerpt: true
 ---
 
@@ -29,7 +29,8 @@ Further reading on MDN: [Introduction to the Dom](https://developer.mozilla.org/
 
 # What is the DOM?
 
-The **Document Object Model** is an API. An API is a means for programs to interact with each other.
+The **Document Object Model** is an API.
+An API is a means for programs to interact with each other.
 
 *[API]: Application Programming Interface
 
@@ -50,18 +51,22 @@ The document can be modeled in a number of ways:
 
 # How the DOM models the document
 
-As a tree. The data structure has a root node with branches leading to child nodes (which may, in turn, have branches).
+The DOM uses a tree to model the document.
+The data structure has a root node with branches leading to child nodes (which may, in turn, have branches to other children).
 
 <br>
 
 # Fundamental DOM Data Types
+
+<!-- Default font size is .75em -->
+<style>table {font-size: 0.9em;}</style>
 
 | Data Type | Description |
 | --- | --- |
 | Document | The root `document` object, which serves as an entry point into the web page's content. |
 | Node | Every object within a document is a node of some kind. `Node` is an abstract base class upon which other DOM objects are based. There is no such thing as a plain `Node` object, but every kind of DOM node is represented by an interface based on `Node`. See [nodeType](https://developer.mozilla.org/en-US/docs/Web/API/Node/nodeType). |
 | Element | A type based on `Node`, which refers to an element or a node of type `element` returned by a member of the DOM. More specific classes (such as `HTMLElement`) extend the `Element` interface with methods specific to the element. |
-| NodeList | A collection of elements. Items in a `nodeList` can be accessed in two ways: {::nomarkdown}<table><tr><td>list.item(index)</td><td>(returns `null` if index is out of bounds)</td></tr><tr><td>list\[index]</td><td>(returns `undefined` if index is out of bounds)</td></tr></table>{:/} NodeLists can be _live_ or _static_. Live nodelists are updated automatically with the DOM. Static nodelists are not modified automatically after creation. |
+| NodeList | A collection of elements. Items in a `nodeList` can be accessed in two ways: {::nomarkdown}<table><tr><td><code>list.item(index)</code></td><td>Returns `null` if index is out of bounds</td></tr><tr><td><code>list[index]</code></td><td>Returns `undefined` if index is out of bounds</td></tr></table>{:/} NodeLists can be _live_ or _static_. Live nodelists are updated automatically with the DOM. Static nodelists are not modified automatically after creation. |
 | Attr | An object reference that exposes a special interface for element attributes. Attributes are nodes in the DOM, just like Elements, but they are rarely used as such. |
 | NamedNodeMap | Despite being named *node*map, `NamedNodeMap` is a live collection of `Attr` objects. Objects in a `NamedNodeMap` are not in any particular order (unlike `NodeList`), but the objects can be accessed by name or enumerated by index. |
 
