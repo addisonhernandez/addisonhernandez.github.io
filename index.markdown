@@ -5,8 +5,8 @@ entries_layout: grid
 # author_profile: true
 title: On This Day in Tech
 header:
-  overlay_image: "/assets/images/alexandre-debieve-FO7JIlwjOtU-unsplash.jpg"
-  overlay_filter: "0.5"
+  overlay_image: /assets/images/alexandre-debieve-FO7JIlwjOtU-unsplash.jpg
+  overlay_filter: linear-gradient(90deg, rgba(0, 0, 0, 0.75) 33%, rgba(0, 0, 0, 0.5))
 #   actions:
 #     - label: "Download"
 #       url: "https://github.com/mmistakes/minimal-mistakes/"
