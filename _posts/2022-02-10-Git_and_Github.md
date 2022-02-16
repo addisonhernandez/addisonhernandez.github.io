@@ -10,8 +10,8 @@ tags:
   - Data Model
   - DAG
   - Pseudocode
-excerpt: "An ugly interface has to be memorized, but a beautiful design can be understood"
-tagline: "An ugly interface for a beautiful design"
+tagline: "An ugly interface has to be memorized, but a beautiful design can be understood"
+excerpt: "An ugly interface for a beautiful design"
 header:
   teaser: "/assets/images/Git-Logo-White.png"
   overlay_image: "/assets/images/Git-Logo-White.png"
