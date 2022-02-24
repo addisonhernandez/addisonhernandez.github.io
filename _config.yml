@@ -28,7 +28,7 @@ domain: addisonhernandez.github.io
 teaser: "/assets/images/patrick-tomasso-5hvn-2WW6rY-unsplash.jpg" # path of fallback teaser image
 # logo: # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title: On This Day in Tech # overrides the website title displayed in the masthead, use " " for no title
-words_per_minute: 150
+words_per_minute: 100
 
 # Default settings
 defaults:
